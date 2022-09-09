@@ -1,0 +1,49 @@
+/** @format */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container > div {
+  background-color: #e7e7e7;
+  border: 1px solid #d1d0d0;
+}
+
+#right-side {
+  background-color: orange;
+}
+
+#right-side:hover {
+  background-color: #696970;
+  color: white;
+}
+
+.button {
+  padding: 25px 48px;
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+.grid-container > div:hover {
+  background-color: #696970;
+  color: white;
+}
+
+.grid-item17 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.cal-input {
+  background-color: #858694;
+  height: 3rem;
+  width: 31.4rem;
+  border: none;
+  margin-bottom: 1px;
+  text-align: end;
+  color: white;
+  padding-right: 0.5rem;
+}
