@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div style={{
-    width: '75%',
+    width: '80%',
     margin: '40px',
   }}
   >
