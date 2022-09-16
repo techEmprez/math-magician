@@ -5,7 +5,7 @@
   grid-template-columns: auto auto auto auto;
 }
 
-.grid-container > div {
+.grid-container>div {
   background-color: #e7e7e7;
   border: 1px solid #d1d0d0;
 }
@@ -27,7 +27,7 @@
   color: black;
 }
 
-.grid-container > div:hover {
+.grid-container>div:hover {
   background-color: #696970;
   color: white;
 }
@@ -46,4 +46,13 @@
   text-align: end;
   color: white;
   padding-right: 0.5rem;
+}
+
+header ul li {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header ul li:not(:last-child) {
+  border-right: 2px solid #333;
 }
