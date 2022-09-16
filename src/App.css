@@ -56,13 +56,13 @@
   align-items: center;
 }
 
-.header>span {
+.header > span {
   margin-left: 40px;
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-.header>ul {
+.header > ul {
   list-style: none;
   display: flex;
   gap: 40px;
