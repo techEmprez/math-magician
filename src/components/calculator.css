@@ -5,7 +5,7 @@
   grid-template-columns: auto auto auto auto;
 }
 
-.grid-container > div {
+.grid-container>div {
   background-color: #e7e7e7;
   border: 1px solid #d1d0d0;
 }
@@ -27,7 +27,7 @@
   color: black;
 }
 
-.grid-container > div:hover {
+.grid-container>div:hover {
   background-color: #696970;
   color: white;
 }
@@ -55,4 +55,26 @@ header ul li {
 
 header ul li:not(:last-child) {
   border-right: 2px solid #333;
+}
+
+header link {
+  text-decoration: none;
+  color: #000;
+}
+
+.calculate-math {
+  font-size: 1.3rem;
+  margin-left: 40px;
+  color: blue;
+}
+
+.home-text {
+  width: 80%;
+  margin: 40px;
+}
+
+.quote-text {
+  width: 70%;
+  font-size: 1.1rem;
+  margin: 4% auto;
 }

@@ -5,7 +5,7 @@ import './calculator.css';
 const Header = () => (
   <header className="header">
     <span href="/">
-      <Link style={{ textDecoration: 'none', color: '#000' }} to="/">Math Magicians</Link>
+      <Link to="/">Math Magicians</Link>
     </span>
     <ul>
       <li><Link to="/">Home</Link></li>
