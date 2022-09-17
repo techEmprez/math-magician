@@ -47,3 +47,34 @@
   color: white;
   padding-right: 0.5rem;
 }
+
+header ul li {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+header ul li:not(:last-child) {
+  border-right: 2px solid #333;
+}
+
+header link {
+  text-decoration: none;
+  color: #000;
+}
+
+.calculate-math {
+  font-size: 1.3rem;
+  margin-left: 40px;
+  color: blue;
+}
+
+.home-text {
+  width: 80%;
+  margin: 40px;
+}
+
+.quote-text {
+  width: 70%;
+  font-size: 1.1rem;
+  margin: 4% auto;
+}
