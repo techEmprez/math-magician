@@ -7,7 +7,7 @@ This is mainly a ReactJs project with full implementation.
 
 # Live Demo
 
-[Live Demo](https://techEmprez.github.io/math-magician)
+[Live Demo](https://majestic-basbousa-03c012.netlify.app/quote)
 
 ## Built With
 
