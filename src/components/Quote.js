@@ -1,12 +1,7 @@
 import React from 'react';
 
 const Quote = () => (
-  <div style={{
-    width: '60%',
-    margin: '4% auto',
-    fontSize: '1.1rem',
-  }}
-  >
+  <div className="quote-text">
     <p>
       Mathematics as an expression of the human mind reflects the active will,
       the contemplative reason, and the desire for aesthetic perfection.

@@ -1,11 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <div style={{
-    width: '80%',
-    margin: '40px',
-  }}
-  >
+  <div className="home-text">
     <h2>Welcome to our Math Magician Page</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

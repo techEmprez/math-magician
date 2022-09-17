@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
+import './calculator.css';
 
 const Calculator = () => {
   const [obj, setobj] = useState({ total: 0, next: null, operation: null });
@@ -11,12 +12,7 @@ const Calculator = () => {
   const { total, next, operation } = obj;
   return (
     <>
-      <span style={{
-        fontSize: '1.3rem',
-        marginLeft: '40px',
-        color: 'blue',
-      }}
-      >
+      <span className="calculate-math">
         Lets do some math!
 
       </span>
