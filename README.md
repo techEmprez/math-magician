@@ -11,8 +11,9 @@ This is mainly a ReactJs project with full implementation.
 
 ## Built With
 
-- ReactJs
-- CSS3
+- HTML
+- CSS
+- ReactJS
 
 ## Project Setup
 

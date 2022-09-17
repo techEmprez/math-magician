@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Calculator.css';
+import './calculator.css';
 
 const Header = () => (
   <header className="header">
